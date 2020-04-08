@@ -1,9 +1,9 @@
 function fetchGitHubProfileJSON() {
-    const username = 'defunkt';
-    const url = `https://api.github.com/users/${username}`;
+    const username = 'Arnaud75020';
+    const url = `https://github.com/${username}/simpsons-quotes-react`;
     fetch(url)
         .then(function(response) {
-        return response.json();
+        return response.json[];
         })
         .then(function(profile) {
         const profileHtml = `
